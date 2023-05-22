@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndieWise | Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bodyForm">
+    
+    <nav class="navForm">
+        <a href="formProf1.html">
+            <p class="num">1</p>
+            <p>Começando</p>
+        </a>
+        
+        <hr>
+
+        <a href="formProf2.html">
+            <p class="numDestaque">2</p>
+            <p>Seu conhecimento</p>
+        </a>
+        
+        <hr>
+
+        <a href="formProf3.html">
+            <p class="num">3</p>
+            <p>Seu perfil</p>
+        </a>
+    </nav>
+
+
+
+    <aside class="asideForm2">
+        <h3>Foto de perfil</h3>
+
+        <div class="img">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i> 
+            <input type="file" accept="image/jpeg,image/png,image/jpg" id="input-file">
+        </div>      
+        <img id="preview-image">
+
+        <h2>Dicas para a foto de perfil</h2>
+
+        <p>Tente tirar a foto em um fundo neutro</p>
+        <p>Encontre um lugar com boa iluminação para tirar a foto</p>
+    </aside>
+
+
+
+    <main class="mainForm2">
+        <h1>Preencha os seguintes campos</h1>
+
+        <form>
+            <input type="text" placeholder="Digite o conhecimento que você gostaria de compartilhar">
+            
+            <select>
+                <option value="opcao1">Como você adquiriu esse conhecimento</option>
+                <option value="opcao2">Estou fazendo faculdade dessa área</option>
+                <option value="opcao3">Tenho diploma/certificação nessa área</option>
+                <option value="opcao4">Já trabalhei/trabalho nessa área</option>
+                <option value="opcao5">Adquiri o conhecimento de maneira informal</option>
+            </select>
+
+            <input type="number" id="valor" name="valor" min="0" step="0.01" placeholder="Preço por hora de aula *">
+            <p>* Recomendamos que o preço das aulas sejam acessíveis, cobrando no máximo R$100</p>
+
+            <button type="submit" href="formProf3.html">Continuar</button>
+        </form>
+        <!-- <a >Compartilhar conhecimento</a> -->
+    </main>
+
+    
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/4e5b541ca7.js" crossorigin="anonymous"></script>
+</body>
+</html>
